@@ -1,0 +1,36 @@
+.app__header {
+    background-color: var(--color-black);
+
+}
+.app__header-h1 {
+    color: var(--color-golden);
+    letter-spacing: 0.4rem;
+    font-size: 90px;
+    line-height: 130px;
+    font-family: var(--font-base);
+    text-transform: uppercase;
+}
+
+.app__wrapper_img img {
+    width: 80%;
+}
+
+@media screen and (max-width:900px) {
+    .app__wrapper_info {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    
+    }
+}
+@media screen and (max-width: 500px) {
+    .app__header-h1 {
+        color: var(--color-golden);
+        letter-spacing: 0.2rem;
+        font-size: 65px;
+        line-height: 70px;
+        font-family: var(--font-base);
+        text-transform: uppercase;
+    }
+}

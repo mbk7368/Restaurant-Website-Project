@@ -1,0 +1,33 @@
+.app__laurels_awards {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.app__laurels_awards-card img {
+    width: 70px;
+    height: 70px;
+    margin-right: 2rem;
+}
+.app__laurels_awards-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3rem;
+}
+.app__wrapper_img {
+    width: 80%;
+    height: auto;
+}
+.dd p {
+    font-size: 30px !important;
+}
+
+@media screen and (max-width: 700px) {
+    .app__wrapper_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
