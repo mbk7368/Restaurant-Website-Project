@@ -29,11 +29,11 @@ const Navbar = () => {
         <div className="App__navbar-smallscreen_overlay flex__center slide-bottom">
         <MdOutlineRestaurantMenu color='#fff' className='overlay__close' fontSize={27} onClick={ () => {setToggleMenu(false)} }/>
         <ul className='App__navbar-smallscreen_links'>
-          <li><a className='' href='#Home'>Home</a></li>
-          <li><a className='' href='#About'>Abuot</a></li>
-          <li><a className='' href='#Menu'>Menu</a></li>
-          <li><a className='' href='#Awards'>Awards</a></li>
-          <li><a className='' href='#Contact'>Contact</a></li>
+          <li><a  href='#home'>Home</a></li>
+          <li><a  href='#about'>Abuot</a></li>
+          <li><a  href='#menu'>Menu</a></li>
+          <li><a  href='#awards'>Awards</a></li>
+          <li><a  href='#contact'>Contact</a></li>
         </ul>
         </div>
       )}
